@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.global {
+  width: 80vmax;
+  max-width: 800px;
+  color: rgb(78, 56, 56);
+  line-height: 2rem;
+  margin: 0px auto;
+  background-color: bisque;
+  padding: 10px;
+}
+.logo {
+  width: 50px;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.logo img {
+  width: inherit;
+  display: inline-block;
+}
+nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1rem;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  background-color: darkgreen;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+nav li :visited {
+  background-color: rgb(135, 136, 58);
+  color: antiquewhite;
+}
+nav li a:hover {
+  background-color: orange;
+  color: rgb(58, 14, 58);
+}
+nav li a:active {
+  background-color: rebeccapurple;
+  color: yellow;
+}
+h3 {
+  margin: 10px;
+}
+article {
+  width: 10vmax;
+  height: 80vh;
+  display: inline-block;
+  background-color: burlywood;
+}
+article img {
+  border-radius: 50%;
+  margin: 25px 25px 0px;
+}
+article p {
+  background-color: white;
+  width: 9vmax;
+  padding: 10px;
+  margin: 10px;
+}
+.feedback{
+    background-color: burlywood;
+    border-left: 2px solid salmon;
+    border-bottom: 2px solid salmon;
+    width: 60%;
+    padding: 10px;
+}
+footer > div{
+    margin-top: 20px;
+    border: 1px solid rgb(175, 87, 23);
+    background-color: rgb(241, 208, 165);
+}
+footer div div{
+    border: inherit;
+    margin: 8px;
+    text-align: center;
+}
