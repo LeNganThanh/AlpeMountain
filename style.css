@@ -59,6 +59,7 @@ article {
   height: 80vh;
   display: inline-block;
   background-color: burlywood;
+  overflow: hidden;
 }
 article img {
   border-radius: 50%;
